@@ -3,6 +3,7 @@ import "./App.css";
 import "./index";
 import InfoContext from "./index";
 import TOdolist from "./component/TOdolist";
+import Practice from "./component/Practice";
 
 function App() {
   const [count, setcount] = useState(0);
@@ -52,6 +53,8 @@ function App() {
       <button>タスクを追加</button>
       <button>完了したタスクの削除</button>
       <div>残りのタスク</div>
+      <hr />
+      <Practice />
     </div>
   );
 }
